@@ -14,7 +14,6 @@ body {
 .main__container {
     width: 80%;
     height: 80%;
-    background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -29,7 +28,6 @@ body {
 }
 
 .container {
-    background-color: green;
     width: 80%;
     height: 80%;
     display: flex;
@@ -39,13 +37,11 @@ body {
 }
 
 .score__image {
-    background-color: blue;
     width: 60%;
     height: 20%;
 }
 
 .image__game {
-    background-color: yellow;
     position: relative;
     width: 60%;
     height: 60%;
@@ -55,7 +51,7 @@ body {
 }
 
 .circle__ext {
-    background-color: blueviolet;
+    position: absolute;
     height: 10em;
     width: 10em;
     border-radius: 50%;
@@ -63,10 +59,26 @@ body {
 }
 
 .circle__int {
-    background-color: rgb(0, 225, 255);
     position: absolute;
     height: 8em;
     width: 8em;
     border-radius: 50%;
     border: solid 3px white;
+}
+
+.circle__center {
+    position: absolute;
+    height: 0.8em;
+    width: 0.8em;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.line {
+    position: absolute;
+    right: 49.5%;
+    bottom: 50%;
+    height: 5em;
+    width: 1%;
+    background-color: white;
 }
